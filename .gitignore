@@ -1,0 +1,27 @@
+# Python 虚拟环境
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 环境变量与密钥
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# 缓存与测试
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# 临时文件
+*.log

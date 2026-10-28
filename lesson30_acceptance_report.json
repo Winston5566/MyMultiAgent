@@ -1,0 +1,253 @@
+{
+  "generated_at_utc": "2026-10-28T08:29:06+00:00",
+  "project": "/Users/winston/Desktop/MyMultiAgent_交付测试",
+  "result": "WARN",
+  "summary": {
+    "passed": 46,
+    "warnings": 2,
+    "failed": 0
+  },
+  "scope": "静态检查 + SQLite 只读检查；不调用 API、不执行工作流、不测试网页可访问性",
+  "checks": [
+    {
+      "key": "file:my_agent.py",
+      "status": "PASS",
+      "message": "my_agent.py: 存在"
+    },
+    {
+      "key": "file:multi_agent.py",
+      "status": "PASS",
+      "message": "multi_agent.py: 存在"
+    },
+    {
+      "key": "file:resilient_workflow.py",
+      "status": "PASS",
+      "message": "resilient_workflow.py: 存在"
+    },
+    {
+      "key": "file:run_platform.py",
+      "status": "PASS",
+      "message": "run_platform.py: 存在"
+    },
+    {
+      "key": "file:rag_kb.py",
+      "status": "PASS",
+      "message": "rag_kb.py: 存在"
+    },
+    {
+      "key": "file:rag_tool.py",
+      "status": "PASS",
+      "message": "rag_tool.py: 存在"
+    },
+    {
+      "key": "file:safe_rag_tool.py",
+      "status": "PASS",
+      "message": "safe_rag_tool.py: 存在"
+    },
+    {
+      "key": "file:security_guard.py",
+      "status": "PASS",
+      "message": "security_guard.py: 存在"
+    },
+    {
+      "key": "file:quality_eval.py",
+      "status": "PASS",
+      "message": "quality_eval.py: 存在"
+    },
+    {
+      "key": "file:quality_store.py",
+      "status": "PASS",
+      "message": "quality_store.py: 存在"
+    },
+    {
+      "key": "file:workflow_quality.py",
+      "status": "PASS",
+      "message": "workflow_quality.py: 存在"
+    },
+    {
+      "key": "file:report_repair.py",
+      "status": "PASS",
+      "message": "report_repair.py: 存在"
+    },
+    {
+      "key": "syntax:my_agent.py",
+      "status": "PASS",
+      "message": "my_agent.py: Python 语法正确"
+    },
+    {
+      "key": "syntax:multi_agent.py",
+      "status": "PASS",
+      "message": "multi_agent.py: Python 语法正确"
+    },
+    {
+      "key": "syntax:resilient_workflow.py",
+      "status": "PASS",
+      "message": "resilient_workflow.py: Python 语法正确"
+    },
+    {
+      "key": "syntax:run_platform.py",
+      "status": "PASS",
+      "message": "run_platform.py: Python 语法正确"
+    },
+    {
+      "key": "syntax:rag_kb.py",
+      "status": "PASS",
+      "message": "rag_kb.py: Python 语法正确"
+    },
+    {
+      "key": "syntax:rag_tool.py",
+      "status": "PASS",
+      "message": "rag_tool.py: Python 语法正确"
+    },
+    {
+      "key": "syntax:safe_rag_tool.py",
+      "status": "PASS",
+      "message": "safe_rag_tool.py: Python 语法正确"
+    },
+    {
+      "key": "syntax:security_guard.py",
+      "status": "PASS",
+      "message": "security_guard.py: Python 语法正确"
+    },
+    {
+      "key": "syntax:quality_eval.py",
+      "status": "PASS",
+      "message": "quality_eval.py: Python 语法正确"
+    },
+    {
+      "key": "syntax:quality_store.py",
+      "status": "PASS",
+      "message": "quality_store.py: Python 语法正确"
+    },
+    {
+      "key": "syntax:workflow_quality.py",
+      "status": "PASS",
+      "message": "workflow_quality.py: Python 语法正确"
+    },
+    {
+      "key": "syntax:report_repair.py",
+      "status": "PASS",
+      "message": "report_repair.py: Python 语法正确"
+    },
+    {
+      "key": "syntax:token_usage.py",
+      "status": "PASS",
+      "message": "token_usage.py: Python 语法正确"
+    },
+    {
+      "key": "syntax:web_runner.py",
+      "status": "PASS",
+      "message": "web_runner.py: Python 语法正确"
+    },
+    {
+      "key": "page:4_Token成本.py",
+      "status": "PASS",
+      "message": "pages/4_Token成本.py: 存在"
+    },
+    {
+      "key": "page:5_质量评估.py",
+      "status": "PASS",
+      "message": "pages/5_质量评估.py: 存在"
+    },
+    {
+      "key": "page:6_质量趋势.py",
+      "status": "PASS",
+      "message": "pages/6_质量趋势.py: 存在"
+    },
+    {
+      "key": "page:7_自动纠错记录.py",
+      "status": "PASS",
+      "message": "pages/7_自动纠错记录.py: 存在"
+    },
+    {
+      "key": "page:8_RAG安全审计.py",
+      "status": "PASS",
+      "message": "pages/8_RAG安全审计.py: 存在"
+    },
+    {
+      "key": "dependency:openai",
+      "status": "PASS",
+      "message": "Python 依赖 openai: 已安装"
+    },
+    {
+      "key": "dependency:dotenv",
+      "status": "PASS",
+      "message": "Python 依赖 dotenv: 已安装"
+    },
+    {
+      "key": "dependency:streamlit",
+      "status": "PASS",
+      "message": "Python 依赖 streamlit: 已安装"
+    },
+    {
+      "key": "rag_agent_import",
+      "status": "PASS",
+      "message": "Agent 使用 safe_rag_tool 导入"
+    },
+    {
+      "key": "calculator",
+      "status": "PASS",
+      "message": "财务计算器注册静态检查（不执行模型）"
+    },
+    {
+      "key": "repair_hook",
+      "status": "PASS",
+      "message": "检测第28课自动评分与修订钩子"
+    },
+    {
+      "key": "token_tracking",
+      "status": "PASS",
+      "message": "检查 Agent 中是否出现 Token 跟踪调用"
+    },
+    {
+      "key": "db_integrity:knowledge_base.db",
+      "status": "PASS",
+      "message": "knowledge_base.db: SQLite quick_check 通过"
+    },
+    {
+      "key": "table:kb_documents",
+      "status": "PASS",
+      "message": "knowledge_base.db / kb_documents: 0 条记录"
+    },
+    {
+      "key": "table:kb_chunks",
+      "status": "PASS",
+      "message": "knowledge_base.db / kb_chunks: 0 条记录"
+    },
+    {
+      "key": "db_integrity:multiagent.db",
+      "status": "PASS",
+      "message": "multiagent.db: SQLite quick_check 通过"
+    },
+    {
+      "key": "table:jobs",
+      "status": "PASS",
+      "message": "multiagent.db / jobs: 0 条记录"
+    },
+    {
+      "key": "table:api_usage",
+      "status": "PASS",
+      "message": "multiagent.db / api_usage: 0 条记录"
+    },
+    {
+      "key": "table:quality_evaluations",
+      "status": "PASS",
+      "message": "multiagent.db / quality_evaluations: 0 条记录"
+    },
+    {
+      "key": "table:quality_revision_attempts",
+      "status": "WARN",
+      "message": "multiagent.db: 尚未创建 quality_revision_attempts 表（可能尚未产生记录）"
+    },
+    {
+      "key": "table:rag_security_events",
+      "status": "WARN",
+      "message": "multiagent.db: 尚未创建 rag_security_events 表（可能尚未产生记录）"
+    },
+    {
+      "key": "env",
+      "status": "PASS",
+      "message": ".env 文件存在（未读取内容）"
+    }
+  ]
+}

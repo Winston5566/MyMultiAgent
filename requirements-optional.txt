@@ -1,0 +1,3 @@
+# PDF/DOCX 知识库导入功能才需要以下两个依赖
+pymupdf
+python-docx
